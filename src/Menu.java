@@ -6,7 +6,7 @@ public class Menu extends JFrame {
 
     Menu() {
         setTitle("Menu");
-        setSize(315, 300);
+        setSize(315, 400);
         setLayout(null);
         ui();
         setVisible(true);
@@ -40,6 +40,9 @@ public class Menu extends JFrame {
         buttonP.setBackground(new Color(234, 228, 228, 255));
         buttonP.addActionListener(scroll);
         add(buttonP);
+
+        HeartBarElement heart = new HeartBarElement(150, 100, 80, 160);
+        add(heart);
 
 
     }
