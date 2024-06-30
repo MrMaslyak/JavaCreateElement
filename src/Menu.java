@@ -44,6 +44,9 @@ public class Menu extends JFrame {
         HeartBarElement heart = new HeartBarElement(150, 100, 80, 160);
         add(heart);
 
+        LittleNotesElement notes = new LittleNotesElement(100, 260, 80, 100);
+        add(notes);
+
 
     }
 
