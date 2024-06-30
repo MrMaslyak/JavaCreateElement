@@ -47,6 +47,9 @@ public class Menu extends JFrame {
         LittleNotesElement notes = new LittleNotesElement(100, 260, 80, 100);
         add(notes);
 
+        CircleScrollElement circle = new CircleScrollElement(200, 260, 80, 100);
+        add(circle);
+
 
     }
 
