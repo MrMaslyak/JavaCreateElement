@@ -30,6 +30,8 @@ public class ScrollBarElement extends JPanel implements MouseMotionListener, Act
     @Override
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
+        g.setColor(Color.white);
+        g.fillRect(0, 0, getWidth(), getHeight());
         g.setColor(Color.blue);
         g.drawLine(0, getHeight() / 2, getWidth(), getHeight() / 2);
         g.drawLine(getWidth() / 5, getHeight() / 2 + heightLine, getWidth() / 5, getHeight() / 2 - heightLine);

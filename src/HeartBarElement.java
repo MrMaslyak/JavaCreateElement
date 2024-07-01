@@ -33,13 +33,13 @@ public class HeartBarElement extends JPanel {
         g.fillOval(x6 - radius, y - radius, radius * 2, radius * 2);
 
         int[] xPoints = { x1, x2, (x1 + x2) / 2 };
-        int[] yPoints = { y + radius2, y + radius2, y + radius2 * 2 };
+        int[] yPoints = { y + radius2- 15, y + radius2- 15, y + radius2 * 2- 15 };
 
         int[] xPointsSec = { x3, x4, (x3 + x4) / 2 };
-        int[] yPointsSec = { y + radius2, y + radius2, y + radius2 * 2 };
+        int[] yPointsSec = { y + radius2- 15, y + radius2- 15, y + radius2 * 2- 15 };
 
         int[] xPointsThir = { x5, x6, (x5 + x6) / 2 };
-        int[] yPointsThir = { y + radius2, y + radius2, y + radius2 * 2 };
+        int[] yPointsThir = { y + radius2- 15, y + radius2- 15, y + radius2 * 2 - 15};
 
 
         g.fillPolygon(xPoints, yPoints, 3);
